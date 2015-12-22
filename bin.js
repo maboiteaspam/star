@@ -26,7 +26,7 @@ var argv  = require('minimist')(process.argv.slice(2));
 var debug = require('@maboiteaspam/set-verbosity')('star', process.argv);
 var pkg   = require('./package.json')
 var help  = require('@maboiteaspam/show-help')(usage, process.argv, pkg);
-var Config  = require('configstore')
+var Config= require('configstore') // see https://github.com/yeoman/configstore/pull/32
 var conf = new Config(pkg.name, {save: [], savedev:[]});
 
 (!argv['_'] || !argv['_'].length) && help.print(usage, pkg) && help.die('star [cmd] [opts]');
