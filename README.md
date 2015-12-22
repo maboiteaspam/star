@@ -4,15 +4,39 @@ never forget about your preferred packages
 
 ## Install
 
-    npm i @maboiteaspam/star --save-dev
+    npm i @maboiteaspam/star -g
 
 ## Usage
 
+It s a command line binary to start your preferred package.
+
 ```js
-var module = require('star');          // your code here,
-                                       // your doc here.
+@maboiteaspam/star 1.0.0
+never forget about your preferred packages
+
+    Usage
+        star [cmd] [opts]
+        star add [modules...]
+        star rm [modules...]
+        star ll
+
+    Options
+        -v[--verbose    verbose
+        -d|--dev        --save-dev
+        -h|--help       show help
+
+    Examples
+        star add debug -v
+        star add debug -d
+        star rm debug -v
+        star ll debug -v
+        star -v
+        star -h
 ```
 
-## More
+## Read More
 
-Additional links and comments.
+I use it in my regular node package init stream get suggested,
+
+- https://github.com/maboiteaspam/npi-regular
+- https://github.com/maboiteaspam/npi
