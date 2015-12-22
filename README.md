@@ -10,7 +10,7 @@ never forget about your preferred packages
 
 It s a command line binary to start your preferred package.
 
-```js
+```bash
 @maboiteaspam/star 1.0.0
 never forget about your preferred packages
 
