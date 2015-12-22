@@ -1,6 +1,6 @@
 {
   "name": "@maboiteaspam/star",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "never forget about your preferred packages",
   "main": "index.js",
   "scripts": {
@@ -25,10 +25,10 @@
     "star": "./bin.js"
   },
   "dependencies": {
-    "@maboiteaspam/set-verbosity": "^2.0.3",
-    "@maboiteaspam/show-help": "^3.0.0",
-    "configstore": "^1.4.0",
-    "minimist": "^1.2.0"
+    "@maboiteaspam/set-verbosity": ">=2.0.3 <3.0.0-0",
+    "@maboiteaspam/show-help": ">=3.0.0 <4.0.0-0",
+    "configstore": ">=1.4.0 <2.0.0-0",
+    "minimist": ">=1.2.0 <2.0.0-0"
   },
   "devDependencies": {}
 }
