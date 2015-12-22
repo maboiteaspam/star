@@ -1,0 +1,32 @@
+{
+    "name": "@maboiteaspam/star",
+    "version": "1.0.0",
+    "description": "never forget about your preferred packages",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dcheck": "npm outdated --depth=0",
+        "patch": "npm version patch -m \"patch %s\"",
+        "minor": "npm version minor -m \"minor %s\"",
+        "major": "npm version major -m \"major %s\"",
+        "preversion": "echo \"npm test: not defined\" && npi --explicit",
+        "version": "echo \"npm run build: not defined\"",
+        "postversion": "git push && git push --tags",
+        "public": "npm publish --access=public"
+    },
+    "keywords": [
+        "npm",
+        "package",
+        "reminder"
+    ],
+    "author": "maboiteaspam",
+    "license": "WTF",
+    "bin": {
+        "star": "./bin.js"
+    },
+    "dependencies": {
+        "@maboiteaspam/set-verbosity": "^2.0.2",
+        "@maboiteaspam/show-help": "^2.0.1"
+    },
+    "devDependencies": {}
+}
