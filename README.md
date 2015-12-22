@@ -21,7 +21,7 @@ never forget about your preferred packages
         star ll
 
     Options
-        -v[--verbose    verbose
+        -v|--verbose    verbose
         -d|--dev        --save-dev
         -h|--help       show help
 
@@ -29,14 +29,15 @@ never forget about your preferred packages
         star add debug -v
         star add debug -d
         star rm debug -v
-        star ll debug -v
+        star ll -v
+        star ll -v -d
         star -v
         star -h
 ```
 
 ## Read More
 
-I use it in my regular node package init stream get suggested,
+I use it in my regular node package init stream to get suggested,
 
 - https://github.com/maboiteaspam/npi-regular
 - https://github.com/maboiteaspam/npi
