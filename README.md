@@ -8,7 +8,7 @@ never forget about your preferred packages
 
 ## Usage
 
-It s a command line binary to start your preferred package.
+It s a command line binary to star your preferred package.
 
 ```bash
 @maboiteaspam/star 1.0.0
