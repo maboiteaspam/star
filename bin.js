@@ -9,7 +9,7 @@ function usage () {/*
         star ll
 
     Options
-        -v[--verbose    verbose
+        -v|--verbose    verbose
         -d|--dev        --save-dev
         -h|--help       show help
 
